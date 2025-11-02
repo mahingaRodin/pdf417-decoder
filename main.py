@@ -2,7 +2,7 @@ from pdf417decoder import PDF417Decoder
 from PIL import Image
 
 # Load the image
-image_path = "23e8a677-dc0a-4c17-8c90-82540acfb4ff.png"
+image_path = "Screenshot 2025-11-02 182858.png"
 
 # Decode PDF417 barcode
 decoder = PDF417Decoder(image_path)
