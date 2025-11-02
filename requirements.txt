@@ -1,3 +1,4 @@
 pdf417decoder
 pyzbar
 pillow
+pylibdmtx
