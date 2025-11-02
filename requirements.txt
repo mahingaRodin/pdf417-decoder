@@ -5,3 +5,4 @@ pylibdmtx
 opencv-python
 opencv-contrib-python
 qrcode
+pyzxing
