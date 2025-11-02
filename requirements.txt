@@ -3,4 +3,5 @@ pyzbar
 pillow
 pylibdmtx
 opencv-python
+opencv-contrib-python
 qrcode
