@@ -2,3 +2,5 @@ pdf417decoder
 pyzbar
 pillow
 pylibdmtx
+opencv-python
+qrcode
