@@ -1,14 +1,9 @@
-from pdf417decoder import PDF417Decoder
+from pyzbar.pyzbar import decode
 from PIL import Image
 
-# Load the image
 image_path = "Screenshot 2025-11-02 182858.png"
+decoded_objects = decode(Image.open(image_path))
 
-# Decode PDF417 barcode
-decoder = PDF417Decoder(image_path)
-decoder.decode()
-
-# Get all decoded data
-for barcode in decoder.barcode_data_list:
-    print("Decoded Data:")
-    print(barcode.data)
+for obj in decoded_objects:
+    print("Type:", obj.type)
+    print("Data:", obj.data.decode('utf-8', errors='ignore'))
